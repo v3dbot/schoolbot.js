@@ -1,0 +1,32 @@
+{
+  "name": "schoolbot",
+  "version": "0.2.3",
+  "description": "ye don't",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v3dbot/v3dbot.js.git"
+  },
+  "author": "Adriaan",
+  "license": "NONE",
+  "bugs": {
+    "url": "https://github.com/v3dbot/v3dbot/issues"
+  },
+  "homepage": "https://github.com/v3dbot/v3dbot#readme",
+  "dependencies": {
+    "discord.js": "12.x",
+    "dotenv": "^8.6.0",
+    "download": "^8.0.0",
+    "express": "^4.17.1",
+    "ical-expander": "^3.1.0",
+    "node-fetch": "^2.6.1"
+  },
+  "__COMMENTS": [
+    "download and ical-expander are only needed if using les v1",
+    ".env only needed for .env, other environment stuff can be used",
+    "express is only needed to prevent services like heroku from making the bot sleep (together with cron-job.org or something like that)"
+  ]
+}

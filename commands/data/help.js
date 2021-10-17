@@ -1,0 +1,3 @@
+module.exports = {
+  _help: 'Ik heb deze commando\'s:\n```%boek: geeft een link naar het boek(of de boeken) van een vak\n%antwoorden (antwoord, antw): geeft een link naar de antwoorden van een vak\n%help (h, ?): laat dit bericht zien\n%malmberg (ml): geeft een link naar alle publitas publicaties van Malmberg\n%link (meet, lnk, ln): geeft een link naar de google meet voor bepaalde vakken.\n%playlist (pl): geeft een link naar een spotify playlist zodat je hem niet hoeft te onthouden\n%les: geeft informatie over de huidige of eerstvolgende les```'
+}
