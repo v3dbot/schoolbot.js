@@ -22,7 +22,7 @@
     "download": "^8.0.0",
     "express": "^4.17.1",
     "ical-expander": "^3.1.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.x"
   },
   "__COMMENTS": [
     "download and ical-expander are only needed if using les v1",
