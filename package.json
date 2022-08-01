@@ -17,12 +17,12 @@
   },
   "homepage": "https://github.com/v3dbot/v3dbot#readme",
   "dependencies": {
-    "discord.js": "12.x",
+    "discord.js": "14.0.0",
     "dotenv": "^8.6.0",
     "download": "^8.0.0",
     "express": "^4.17.1",
     "ical-expander": "^3.1.0",
-    "node-fetch": "^2.x"
+    "node-fetch": "^3.2.10"
   },
   "__COMMENTS": [
     "download and ical-expander are only needed if using les v1",
